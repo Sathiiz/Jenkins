@@ -56,6 +56,7 @@ pipeline{
         {
             steps{
                 sh 'mvn package'
+                echo '.war file is created'
             }
         }
         
